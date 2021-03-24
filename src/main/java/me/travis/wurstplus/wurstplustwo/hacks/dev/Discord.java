@@ -21,7 +21,8 @@ extends WurstplusHack {
     public void enable() {
         try {
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-                Desktop.getDesktop().browse(new URI("https://discord.gg/hR595WRHww"));
+                Desktop.getDesktop().browse(new URI("https://discord.gg/Z5FrtaX"));
+                
             }
         }
         catch (Exception e) {
